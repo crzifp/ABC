@@ -101,7 +101,7 @@ customer1["domain"][0:30]
 
 customer1 = pd.read_csv('domain_count.txt', sep='\t',header = None, names=["domain", "count"])
 final_df = pd.DataFrame()
-session_request = getSessionRequest('alex@kazim.org', 'y0ur0ck!')
+session_request = getSessionRequest('a','b')
 count=0
 for single_domain in customer1["domain"][0:30]:
     table = getTableFromDomain(single_domain, session_request)
