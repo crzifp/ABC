@@ -3,12 +3,13 @@
 
 # In[17]:
 
+from __future__ import division
 import time
 import requests
 from BeautifulSoup import BeautifulSoup
 import numpy as np
 import pandas as pd
-from __future__ import division
+
 
 
 # In[2]:
